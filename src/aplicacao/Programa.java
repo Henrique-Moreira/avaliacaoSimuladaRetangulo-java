@@ -20,6 +20,13 @@ public class Programa {
 		}
 		
 		
+		System.out.print("Digite a altura do retângulo: ");
+		altura = sc.nextDouble();
+		
+		while (altura < 0) {
+			System.out.print("O valor deve ser positivo. Tente novamente: ");
+			altura = sc.nextDouble();
+		}
 		
 		sc.close();
 	}
